@@ -1,10 +1,10 @@
 
 
-list=[26,27,28,29,30]
+list=[30,29,28,27,36]
 print(list)
 
 #insertion
-list.insert(5,40)
+list.insert(5,35)
 print(list)
 
 #deletion of first occurence of integer
@@ -12,7 +12,7 @@ del list[0]
 print(list)
 
 #insertion at end of list
-list.append(25)
+list.append(30)
 print(list)
 
 #sorting
@@ -30,12 +30,12 @@ print(list)
 #STRING OPERATIONS:
 
 #concatenate string
-str1=("string")
-str2=("operations")
+str1=("concatenate")
+str2=("string")
 print(str1+str2)
 
 #reverse of String
-str3="string"
+str3="reverse"
 print(str3[::-1])
 
 #slice

@@ -1,26 +1,14 @@
-def add(a, b):
-    return a + b
-def subtract(a, b):
-    return a - b
-def multiply(a, b):
-    return a * b
-def divide(a, b):
-    return a / b
-print("please select operation -\n" \
-      "1. Add\n" \
-      "2. Subtract\n" \
-      "3. Multiply\n" \
-      "4. Divide\n")
-select = int(input("select operations from 1, 2, 3, 4 :"))
-number_1 = int(input("Enter first number: "))
-number_2 = int(input("Enter second number: "))
-if select == 1:
-    print(number_1, "+", number_2, "=", add(number_1, number_2))
-elif select == 2:
-    print(number_1, "-", number_2, "=", subtract(number_1, number_2))
-elif select == 3:
-    print(number_1, "*", number_2, "=", multiply(number_1, number_2))
-elif select == 4:
-    print(number_1, "/", number_2, "=", divide(number_1, number_2))
-else:
-    print("Invalid input")
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: C:\Users\msuba\OneDrive\Desktop\Assignment\Team Member 2\Assignment1\coding 2.py
+please select operation -
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+
+select operations from 1, 2, 3, 4 :4
+Enter first number: 6
+Enter second number: 5
+6 / 5 = 1.2
